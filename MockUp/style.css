@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+
+body{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section{
+    background: url(https://variety.com/wp-content/uploads/2018/09/imagine-dragons-band-e1597672423191.jpg);
+    background-size: cover;
+}
+
+.header{
+    background-color: black;   
+}
+
+.LOGO{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.logo-banda{
+    width: 13%;
+}
+
+.navegador ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 6%;
+    padding: 8px;
+}
+
+.navegador a{
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+a:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    transition: all .6s;
+}
+a:hover:after {
+    width: 100%;
+    background: red;
+}
+
+section{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 170px;
+}
+
+
+.parrafo{
+    background-color: white ;
+    border-radius: 10px;
+    display: flex;
+    opacity: 0.8;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 930px;
+    height: 330px;
+}
+
+h1{
+    padding: 25px;
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.p{
+    padding: 30px;
+    color: black;
+    font-size: 1.3rem;
+} 
+
+.boton{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.btn{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    cursor: pointer;
+    gap: 10%;
+    width: 28%;
+    padding: 15px;
+    border-radius: 10px;
+    animation-name: btn;
+}
+
+.btn:hover{
+    background-color: rgba(185, 220, 233, 0.882);
+    transform:scale(0.9);
+    transition: .7s;
+} 
+
+.sig{
+    color: black;
+    width: 14%;
+}
+
+
